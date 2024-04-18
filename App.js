@@ -38,7 +38,7 @@ if (process.env.NODE_ENV !== "development") {
   sessionOptions.cookie = {
     sameSite: "none",
     secure: true,
-    domain: process.env.HTTP_SERVER_DOMAIN,
+    // domain: process.env.HTTP_SERVER_DOMAIN,
     
   };
   sessionOptions.cookie.sameSite = "none";
