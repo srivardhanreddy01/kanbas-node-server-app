@@ -41,10 +41,6 @@ export default function AssignmentsRoutes(app) {
         res.sendStatus(204);
         });
 
-        
-      
-
-      
 
       app.delete("/api/assignments/:id", (req, res) => {
         const { id } = req.params;

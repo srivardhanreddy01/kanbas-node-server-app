@@ -29,7 +29,11 @@
   "homepage": "https://github.com/srivardhanreddy01/kanbas-node-server-app#readme",
   "dependencies": {
     "axios": "^1.6.8",
+    "connect-redis": "^7.1.1",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.3.1"
   }
 }
